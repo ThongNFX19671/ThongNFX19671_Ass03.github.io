@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: #343a40;
+  font-size: 24px;
+  height: 100vh;
+  font-weight: bold;
+}
+ul li {
+  list-style-type: none;
+}
+h1 {
+  font-size: 32px;
+  border-bottom: 1px solid #343a40;
+  padding: 10px 10px 10px 10px;
+  margin: 0 10px;
+}
+body .nav {
+  background-color: blue;
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+#goals,
+#teams,
+#timeline,
+#scopes,
+#primary {
+  background-color: #e7f5ff;
+  /* margin: 0 30px; */
+}
+
+#timeline {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.icon {
+  width: 30px;
+}
+.goals,
+.teams,
+.scope,
+.primary,
+.timeline {
+  margin: 0 30px;
+}
+.goals-list {
+  border-bottom: 1px solid #adb5bd;
+  padding-top: 10px;
+}
+.teams-list,
+.timeline-project {
+  padding: 12px 0;
+}
+.time-project-number {
+  width: 60px;
+  height: 60px;
+  padding-top: 10px;
+  margin-left: 10px;
+  border-radius: 60%;
+  background-color: #b197fc;
+
+  border: 2px solid #e67700;
+}
+.timeline-project-item {
+  border-bottom: 1px dotted blue;
+}

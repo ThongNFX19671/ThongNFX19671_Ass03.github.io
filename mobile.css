@@ -1,0 +1,56 @@
+@media (max-width: 576px) {
+  header {
+    height: 20vh;
+  }
+  .avatar {
+    display: none;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  nav li {
+    border-right: none;
+    display: block;
+  }
+  nav li:nth-child(3),
+  nav li:nth-child(4) {
+    margin-left: -34px;
+  }
+  nav ul li:nth-child(4) {
+    border-left: none;
+  }
+  nav li:first-child {
+    border-left: none;
+  }
+  #certificate .a:before {
+    display: none;
+    border: none;
+  }
+
+  .certificate-items ul {
+    margin-top: 32px;
+  }
+  .certificate-items {
+    display: none;
+  }
+  .certificate-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .certificate-items img {
+    width: 100%;
+  }
+  .project-title-time li:first-child {
+    text-align: center;
+  }
+  .project-title-time {
+    height: 100%;
+  }
+  .project-title-time ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* DIGITAL CV */
+}
